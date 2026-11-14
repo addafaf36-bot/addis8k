@@ -1,0 +1,6 @@
+{
+  "name": "ክፍያ ማረጋገጫ",
+  "description": "Ethiopian mobile money and bank payment confirmation app supporting Telebirr, CBE, and Bank of Abyssinia with instant account copying and unlock verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

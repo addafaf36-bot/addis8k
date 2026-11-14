@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">ክፍያ ማረጋገጫ</string>
+
+    <!-- Header & Status -->
+    <string name="header_title">የክፍያ እና ማረጋገጫ ማዕከል</string>
+    <string name="header_subtitle">ከታች ባሉት አካውንቶች ክፍያ ከፈጸሙ በኋላ የማረጋገጫ ቁጥሩን ያስገቡ</string>
+    <string name="status_locked_title">ስልኩ ተቆልፏል</string>
+    <string name="status_locked_desc">ለመክፈት ከሚመችዎ ባንክ ወይም ቴሌብር ገንዘብ ይላኩ</string>
+    <string name="status_unlocked_title">ስልኩ ተከፍቷል</string>
+    <string name="status_unlocked_desc">ክፍያዎ በተሳካ ሁኔታ ተረጋግጧል</string>
+    <string name="recipient_label">ተቀባይ: አዲሴ አራጋው</string>
+
+    <!-- Navigation -->
+    <string name="nav_payment">ክፍያ</string>
+    <string name="nav_history">ታሪክ</string>
+    <string name="btn_back">ተመለስ</string>
+
+    <!-- Bank List -->
+    <string name="section_bank_accounts">የባንክ እና ቴሌብር አካውንቶች</string>
+    <string name="btn_copy">ቅዳ</string>
+    <string name="btn_copied">ተቀድቷል</string>
+    <string name="owner_prefix">ስም: %1$s</string>
+    <string name="snackbar_copied">%1$s (%2$s) ተቀድቷል</string>
+
+    <!-- Payment Form -->
+    <string name="section_confirm_payment">የክፍያ ማረጋገጫ</string>
+    <string name="label_payment_method">የከፈሉበት መንገድ</string>
+    <string name="label_transaction_ref">የክፍያ ማረጋገጫ ቁጥር (Transaction ID / FT...)</string>
+    <string name="placeholder_transaction_ref">ለምሳሌ: FT24112... ወይም የከፈሉበት ስልክ</string>
+    <string name="btn_paste">ለጥፍ</string>
+    <string name="btn_confirm_unlock">ክፍያውን አረጋግጥና ስልኩን ክፈት</string>
+    <string name="error_empty_ref">እባክዎ የክፍያ ማረጋገጫ ቁጥር ወይም የከፈሉበትን ስልክ ያስገቡ</string>
+    <string name="error_short_ref">እባክዎ ትክክለኛ የማረጋገጫ ቁጥር ያስገቡ (ቢያንስ 4 ፊደል/ቁጥር)</string>
+    <string name="snackbar_pasted">ከክሊፕቦርድ ተለጥፏል</string>
+    <string name="snackbar_clipboard_empty">ክሊፕቦርዱ ባዶ ነው</string>
+    <string name="snackbar_form_reset">ቅጹ ተጸድቷል</string>
+
+    <!-- Confirmation / Receipt Screen -->
+    <string name="receipt_verified_title">ክፍያዎ ተረጋግጧል!</string>
+    <string name="receipt_verified_subtitle">ስልኩ በተሳካ ሁኔታ ተከፍቷል። የክፍያ ደረሰኝ ዝርዝር ከታች ይገኛል።</string>
+    <string name="receipt_method_label">የከፈሉበት መንገድ</string>
+    <string name="receipt_ref_label">የማረጋገጫ ቁጥር (Reference)</string>
+    <string name="receipt_recipient_label">ተቀባይ</string>
+    <string name="receipt_time_label">ቀን እና ሰዓት</string>
+    <string name="receipt_status_label">ሁኔታ</string>
+    <string name="receipt_status_verified">ተረጋግጧል • ተከፍቷል</string>
+    <string name="btn_copy_ref">ቁጥሩን ቅዳ</string>
+    <string name="btn_new_payment">አዲስ ክፍያ ላክ</string>
+
+    <!-- History Screen -->
+    <string name="history_title">የክፍያ ማረጋገጫ ታሪክ</string>
+    <string name="history_empty_title">እስካሁን የተላከ ማረጋገጫ የለም</string>
+    <string name="history_empty_desc">ክፍያ ከፈጸሙ በኋላ የማረጋገጫ ቁጥር ሲያስገቡ እዚህ ይመዘገባል</string>
+    <string name="history_delete_desc">ደረሰኙን ሰርዝ</string>
+    <string name="history_reset_lock">ሁኔታውን ወደ ተቆልፏል መልስ</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_banner_art">የክፍያ ደህንነት መግለጫ ምስል</string>
+    <string name="cd_lock_icon">የመቆለፊያ ሁኔታ አመልካች</string>
+    <string name="cd_bank_icon">የባንክ አርማ</string>
+    <string name="cd_copy_icon">አካውንት ቅዳ</string>
+    <string name="cd_clear_input">ጽሑፉን አጽዳ</string>
+    <string name="cd_paste_input">ከክሊፕቦርድ ለጥፍ</string>
+</resources>
